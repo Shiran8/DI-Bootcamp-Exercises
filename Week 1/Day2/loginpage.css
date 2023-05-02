@@ -1,0 +1,64 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #ffeaea;
+  background: linear-gradient(to left, #fd7ade 50%, #ffeaea 50%);
+}
+
+h1 {
+  margin: 5%;
+  align-self: auto;
+  width: 40%;
+  text-align: center;
+  font-style: normal;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+p {
+  text-align: right;
+}
+
+form {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+input[type="email"],
+select,
+textarea {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 40%;
+  padding: 8px;
+  border: 1px solid #a9a9a9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="password"],
+select,
+textarea {
+  width: 40%;
+  padding: 8px;
+  border: 1px solid #a9a9a9;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+input [type="login"],
+select,
+textarea {
+  background-color: #fd7ade;
+}

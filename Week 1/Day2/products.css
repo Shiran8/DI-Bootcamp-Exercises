@@ -1,0 +1,15 @@
+.border {
+  border: 1px solid red;
+  width: 700px;
+  margin: 10px;
+  position: relative;
+}
+
+img {
+  border: 1px solid red;
+}
+
+.line {
+  display: flex;
+  flex-wrap: wrap;
+}

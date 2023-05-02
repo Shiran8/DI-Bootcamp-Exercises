@@ -1,0 +1,34 @@
+#yellow {
+  background-color: yellow;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.media {
+  text-align: center;
+}
+
+.box1 {
+  color: red;
+  text-align: center;
+  border: 2cm;
+  border: 1px solid red;
+  width: 800px;
+  margin: 10px;
+}
+
+.box1 {
+  display: flex;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+img {
+  border: 5px solid rgb(238, 117, 117);
+}

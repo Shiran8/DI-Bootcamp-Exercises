@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topnav {
+  background-color: darkseagreen;
+  overflow: hidden;
+}
+
+a {
+  display: inline;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-align: right;
+  height: 80px;
+}
+
+.logo {
+  position: relative;
+  border-left: 0cm;
+  margin: 10px 15px 15px 10px;
+  width: 150px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-image: url("dress.png");
+  background-size: contain;
+}
+
+#navitems {
+  float: right;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: white;
+  background-color: darkseagreen;
+  text-align: right;
+  width: 100%;
+}
